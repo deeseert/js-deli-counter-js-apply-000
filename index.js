@@ -1,6 +1,6 @@
-function takeANumber(line, name){
-  line.push(name)
-  return `Welcome, ${name}. You are number ${line.length} in line.`
+function takeANumber(line, num){
+  line.push(num)
+  return `Welcome, ${num + 1}. You are number ${line.length} in line.`
 }
 
 function nowServing(line){
@@ -22,3 +22,5 @@ function currentLine(line){
   }
   return `The line is currently: ${newArr.join(', ')}`
 }
+
+//ticket num
