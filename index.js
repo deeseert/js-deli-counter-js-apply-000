@@ -1,6 +1,9 @@
+var newArr = 0;
+
 function takeANumber(line, name){
-  line.push(name)
-  return `Welcome, ${name}. You are number ${line.length} in line.`
+  newArr++;
+  //line.push(name)
+  return `Welcome, ${newArr}. You are number ${line.length} in line.`
 }
 
 function nowServing(line){
